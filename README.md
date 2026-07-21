@@ -15,7 +15,7 @@ Final-year Data Science & Business student at QUT (Bachelor of Data Science + Ba
 - Natural-language scene directives ("burst mode with golden yellow sparks") are translated by Claude, then schema-validated and rejected if malformed — before ever reaching the render
 - Same verification discipline as GridPulse, generalised to a domain with no database: trust the schema, not the model
 
-**[hand-filter](https://github.com/milanshaji1/hand-filter)** — real-time computer vision VFX in TouchDesigner.
+**[handtracked-vfx](https://github.com/milanshaji1/handtracked-vfx)** — real-time computer vision VFX in TouchDesigner.
 - MediaPipe hand tracking drives three corner-pinned quads, one per finger-pair across both hands, each masking a different live video filter
 
 **[Portfolio](https://milanshaji1.github.io)** — full write-ups, methodology, and résumé
