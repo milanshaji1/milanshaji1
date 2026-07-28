@@ -6,14 +6,14 @@ I build data systems that check their own outputs before publishing: models back
 
 ### Featured projects
 
-**[GridPulse](https://github.com/milanshaji1/gridpulse)** · AI market analyst for Australia's electricity grid
+**[Dispatch](https://github.com/milanshaji1/dispatch)** · AI market analyst for Australia's electricity grid
 - LightGBM spike-risk model, rolling-origin backtest on 1M+ rows of real AEMO market data: 71% recall at a 20% alert budget vs. 58% baseline, PR-AUC 0.35 vs. 0.17 climatology
 - Claude-based analyst generates daily briefs; every `{{value|SQL}}` citation is re-verified against the database before publishing, scoring 30/30 on a golden evaluation set
 
 **[gesture-canvas](https://github.com/milanshaji1/gesture-canvas)** · hand-tracked generative graphics in TouchDesigner, directed by a schema-verified LLM
 - Real-time particle scene driven by webcam hand tracking (pinch to burst)
 - Natural-language scene directives ("burst mode with golden yellow sparks") are translated by Claude, then schema-validated and rejected if malformed, before ever reaching the render
-- The same verification discipline as GridPulse, generalised to a domain with no database to check against
+- The same verification discipline as Dispatch, generalised to a domain with no database to check against
 
 **[handtracked-vfx](https://github.com/milanshaji1/handtracked-vfx)** · real-time computer vision VFX in TouchDesigner
 - MediaPipe hand tracking drives three corner-pinned quads, one per finger-pair across both hands, each masking a different live video filter
