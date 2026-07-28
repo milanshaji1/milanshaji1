@@ -6,6 +6,11 @@ I build data systems that check their own outputs before publishing: models back
 
 ### Featured projects
 
+**[PaperTrail](https://github.com/milanshaji1/paper-trail)** · live stock screener that validates its own signals
+- Screens ~1,550 US stocks and the top 50 crypto every 60s, rating each 1–5 from transparent sub-scores with concrete entry levels; Node.js, one runtime dependency, no build step
+- Backtesting and forward paper-trading engines (60 tests, written test-first, with look-ahead-bias guards) replay the signals over ten years against an SPY benchmark
+- Building that harness exposed three bugs that had inflated returns by 30+ points; the corrected result, that the signals lost to buy-and-hold, is reported in the app itself
+
 **[Dispatch](https://github.com/milanshaji1/dispatch)** · AI market analyst for Australia's electricity grid
 - LightGBM spike-risk model, rolling-origin backtest on 1M+ rows of real AEMO market data: 71% recall at a 20% alert budget vs. 58% baseline, PR-AUC 0.35 vs. 0.17 climatology
 - Claude-based analyst generates daily briefs; every `{{value|SQL}}` citation is re-verified against the database before publishing, scoring 30/30 on a golden evaluation set
@@ -22,7 +27,7 @@ I build data systems that check their own outputs before publishing: models back
 
 ### Toolkit
 
-Python · SQL · R · PyTorch · Power BI / Tableau · AWS basics
+Python · SQL · R · PyTorch · JavaScript / Node.js · Power BI / Tableau · AWS basics
 
 ### Currently
 
