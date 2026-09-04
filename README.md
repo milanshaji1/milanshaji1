@@ -1,34 +1,35 @@
 # Milan Shaji
 
-Final-year Data Science & Business student at QUT (Bachelor of Data Science + Bachelor of Business, Entrepreneurship & Innovation), graduating 2026. Based in Queensland, Australia, and targeting graduate roles in data, analytics and AI from February 2027.
+I build data and AI systems that check their outputs before publishing.
 
-I build data systems that check their own outputs before publishing: models backtested against published baselines, and LLM outputs that are rejected unless they pass verification before touching a running system.
+Final-year Data Science & Business student at QUT, graduating in 2026. Seeking graduate roles in data science, analytics, and AI from **February 2027**. Available for relocation within Australia.
+
+**[Portfolio, project write-ups & résumé →](https://milanshaji.com)**
 
 ### Featured projects
 
-**[PaperTrail](https://github.com/milanshaji1/paper-trail)** · live stock screener that validates its own signals
-- Screens ~1,550 US stocks and the top 50 crypto every 60s, rating each 1–5 from transparent sub-scores with concrete entry levels; Node.js, one runtime dependency, no build step
-- Backtesting and forward paper-trading engines (60 tests, written test-first, with look-ahead-bias guards) replay the signals over ten years against an SPY benchmark
-- Building that harness exposed three bugs that had inflated returns by 30+ points; the corrected result, that the signals lost to buy-and-hold, is reported in the app itself
+**[Dispatch](https://github.com/milanshaji1/dispatch) — AI analyst for Australia’s electricity grid**
 
-**[Dispatch](https://github.com/milanshaji1/dispatch)** · AI market analyst for Australia's electricity grid
-- LightGBM spike-risk model, rolling-origin backtest on 1M+ rows of real AEMO market data: 71% recall at a 20% alert budget vs. 58% baseline, PR-AUC 0.35 vs. 0.17 climatology
-- Claude-based analyst generates daily briefs; every `{{value|SQL}}` citation is re-verified against the database before publishing, scoring 30/30 on a golden evaluation set
+Predicts electricity price spikes and generates daily market briefs with figures checked against source data.
 
-**[gesture-canvas](https://github.com/milanshaji1/gesture-canvas)** · hand-tracked generative graphics in TouchDesigner, directed by a schema-verified LLM
-- Real-time particle scene driven by webcam hand tracking (pinch to burst)
-- Natural-language scene directives ("burst mode with golden yellow sparks") are translated by Claude, then schema-validated and rejected if malformed, before ever reaching the render
-- The same verification discipline as Dispatch, generalised to a domain with no database to check against
+- Evaluated on 1M+ rows of AEMO data: **71% spike recall versus 58% for the baseline**, at the same 20% alert budget.
+- Checks the AI analyst’s numerical citations against the database before publishing; passed all 30 cases in its evaluation set.
 
-**[handtracked-vfx](https://github.com/milanshaji1/handtracked-vfx)** · real-time computer vision VFX in TouchDesigner
-- MediaPipe hand tracking drives three corner-pinned quads, one per finger-pair across both hands, each masking a different live video filter
+**[PaperTrail](https://github.com/milanshaji1/paper-trail) — Stock screener with backtesting and paper trading**
 
-**[Portfolio](https://milanshaji.com)** · full write-ups, methodology, and résumé
+Screens approximately 1,550 US stocks and 50 cryptocurrencies, then tests its signals against an SPY benchmark.
 
-### Toolkit
+- Built backtesting and forward paper-trading engines with look-ahead-bias guards.
+- Testing uncovered three bugs that inflated returns by over 30 percentage points. After correction, the signals underperformed buy-and-hold—a result reported in the app.
 
-Python · SQL · R · PyTorch · JavaScript / Node.js · Power BI / Tableau · AWS basics
+**[gesture-canvas](https://github.com/milanshaji1/gesture-canvas) — Hand tracking meets AI-directed graphics**
 
-### Currently
+A TouchDesigner particle scene controlled by webcam gestures and natural-language instructions. Claude’s scene commands must pass schema validation before they can affect the visuals.
 
-Open to graduate roles in data science, analytics, and AI.
+**[handtracked-vfx](https://github.com/milanshaji1/handtracked-vfx) — Gesture-controlled video effects**
+
+MediaPipe hand tracking controls three live video-filter panels in TouchDesigner, with each panel responding to a different pair of fingers.
+
+### Tools I work with
+
+Python · SQL · R · PyTorch · JavaScript / Node.js · Power BI · Tableau · TouchDesigner · MediaPipe · AWS basics
