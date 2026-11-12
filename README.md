@@ -8,6 +8,14 @@ Final-year Data Science & Business student at QUT, graduating in 2026. Seeking g
 
 ### Featured projects
 
+**[Gold Coast Crash Hotspots](https://github.com/milanshaji1/gold-coast-transport-evidence) — Where should road-safety investigation start on the Gold Coast?**
+
+An independent study of 8,142 casualty crashes from 2020 to 2024, using Queensland Government open data. **[Open the dashboard →](https://milanshaji.com/gold-coast-transport-evidence/)**
+
+- Ranked 500 m squares on 2021–2023 and checked the ranking against 2024, which was kept aside: the top 20 squares cover 0.35% of the city but held **55 of 695 serious crashes**, about 23 times their share by area.
+- Split the shortlist by road manager. A council-roads list caught 40 of 384 serious crashes on council roads, against 24 for the combined list.
+- Python and SQL, a BigQuery spatial check, and a Power BI report on a star schema with DAX measures.
+
 **[Dispatch](https://github.com/milanshaji1/dispatch) — AI analyst for Australia’s electricity grid**
 
 Predicts electricity price spikes and generates daily market briefs with figures checked against source data.
@@ -32,4 +40,4 @@ MediaPipe hand tracking controls three live video-filter panels in TouchDesigner
 
 ### Tools I work with
 
-Python · SQL · R · PyTorch · JavaScript / Node.js · Power BI · Tableau · TouchDesigner · MediaPipe · AWS basics
+Python · SQL · R · PyTorch · JavaScript / Node.js · Power BI / DAX · BigQuery · Tableau · TouchDesigner · MediaPipe · AWS basics
